@@ -604,7 +604,7 @@ position = Vector2( 131, 83 )
 position = Vector2( 130, 135 )
 
 [node name="Bat3" parent="YSort" instance=ExtResource( 7 )]
-position = Vector2( 223, 43 )
+position = Vector2( 247, 24 )
 
 [node name="HealthUI" parent="." instance=ExtResource( 8 )]
 margin_left = 6.0
