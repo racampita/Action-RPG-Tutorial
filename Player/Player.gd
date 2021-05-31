@@ -24,6 +24,7 @@ export var FRICTION = 500
 export var ROLL_SPEED = 120
 
 func _ready() -> void:
+	randomize()
 	stats.connect("no_health",self,"queue_free")
 	animationTree.active = true
 	swordHitbox.knockback_vector = roll_vector
